@@ -1,0 +1,36 @@
+h1 {
+    color: brown;
+}
+
+* {
+  //  border: solid;
+}
+
+.header{
+    background-color:#f0f8ff;
+    display:flex;
+    justify-content:space-between;
+}
+.grid{
+    background-color:#ffffef;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color:#efd984;
+    display:flex;
+    justify-content:baseline ;
+    align-items: baseline;
+}
+.item {
+    margin: 0.3%;
+}.item {
+    background-color:wheat
+}
+.item:hover {
+    background-color:#eadfe9
+}
+.item:hover img{
+    opacity:-1
+}
